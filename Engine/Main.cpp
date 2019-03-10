@@ -54,7 +54,7 @@ int WINAPI wWinMain( HINSTANCE hInst,HINSTANCE,LPWSTR pArgs,INT )
 			wnd.ShowMessageBox( L"Unhandled Non-STL Exception",
 				L"\n\nException caught at Windows message loop." );
 		}
-	}
+	}//123
 	catch( const ChiliException& e )
 	{
 		const std::wstring eMsg = e.GetFullMessage() +
